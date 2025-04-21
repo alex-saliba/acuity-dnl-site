@@ -1,0 +1,26 @@
+
+/* Fonts */
+/* ---------------------- */
+
+body, p, a, li, span, div {
+  font-family: "Lato", sans-serif;
+}
+
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* hero image */
+
+.hero-image {
+    background-image: linear-gradient(to left, transparent, rgba(32, 22, 235, 0.25)), url('../images/eye-close-up-2.jpg');
+    background-size: cover;
+    background-position: center;
+    /* linear-gradient(0deg, rgba(255, 166, 0, 0.25), rgba(255, 166, 0, 0.25)), */
+}
+
+.hero-text {
+    font-size: 1.25rem;
+}
