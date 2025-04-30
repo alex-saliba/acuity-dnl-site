@@ -1,6 +1,14 @@
 
-/* Fonts & color */
-/* ---------------------- */
+/* Nav bar color */
+.custom-navbar .nav-link {
+  color: 1A1A1A;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #274690;
+}
+
+/* Body fonts & color */
 
 body {
   background-color: #E2FDFF;
@@ -44,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Buttons */
 
 .btn-custom {
-  /* background-color: #2374AB; */
   background-color: #1B264F;
   color: white;
   text-align: center;
