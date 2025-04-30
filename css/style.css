@@ -18,7 +18,8 @@ body, p, a, li, span, div {
   
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  color: #2374AB;
+  /* color: #2374AB; */
+  color: #274690;
 }
 
 /* hero image */
@@ -43,29 +44,30 @@ h1, h2, h3, h4, h5, h6 {
 /* Buttons */
 
 .btn-custom {
-  background-color: #2374AB;
+  /* background-color: #2374AB; */
+  background-color: #1B264F;
   color: white;
   text-align: center;
   border-radius: 0.375rem;
   padding: 0.5rem 1rem;
-  border: thin solid white;
+  border: thin solid transparent;
   text-decoration: none;
   display: inline-block;
   min-width: 12rem;
-  transition: all 0.25s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
 }
 
 .btn-custom:hover {
-  /* background-color: #788BFF; */
-  background-color: #251F47;
+  background-color: #274690;
   border-color: white;
 }
 
 /* Cards */
 
 .card-custom {
-  /* background-color: #E2FDFF; */
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #E2FDFF;
+  /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
   border: none;
 }
 
@@ -73,8 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Custom section */
 
 .custom-section {
-  /* background-color: #788BFF; */
-  background-color: #2374AB;
+  background-color: #274690;
 }
 
 
